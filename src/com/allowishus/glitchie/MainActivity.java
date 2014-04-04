@@ -1,4 +1,4 @@
-package com.example.fxunit;
+package com.allowishus.glitchie;
 
 import java.io.File;
 import java.io.IOException;
