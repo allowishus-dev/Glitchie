@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Glitchie!</string>
+    <string name="action_settings">Settings</string>
+    <string name="glitch1_text">glitch 1</string>
+    <string name="glitch2_text">glitch 2</string>
+    <string name="glitch3_text">glitch 3</string>
+    
+    <string name="bit_text">bit depth</string>
+    <string name="sampleRate_text">sample rate</string>
+    
+    <string name="delay_text">delay</string>
+    <string name="feedback_text">feedback</string>
+    
+    <string name="title_textview">Glitchie</string>
+    
+
+</resources>

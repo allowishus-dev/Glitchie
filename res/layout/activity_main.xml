@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/bodyView"
+        android:layout_width="850dp"
+        android:layout_height="500dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:alpha=".2"
+        android:background="@drawable/ani_body" />
+
+    <CheckBox
+        android:id="@+id/bitCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bodyView"
+        android:layout_below="@+id/glitch1CheckBox"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="136dp"
+        android:button="@drawable/custom_checkbox_design"
+        android:textSize="10dp" />
+
+    <CheckBox
+        android:id="@+id/glitch3CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/glitch2CheckBox"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/feedbackCheckBox"
+        android:button="@drawable/custom_checkbox_design"
+        android:textSize="10dp" />
+
+    <CheckBox
+        android:id="@+id/glitch1CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bodyView"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="121dp"
+        android:layout_toLeftOf="@+id/glitch3CheckBox"
+        android:button="@drawable/custom_checkbox_design"
+        android:checked="false"
+        android:textSize="10dp" />
+
+    <CheckBox
+        android:id="@+id/feedbackCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bitCheckBox"
+        android:layout_alignBottom="@+id/bitCheckBox"
+        android:layout_marginLeft="111dp"
+        android:layout_toRightOf="@+id/glitch2CheckBox"
+        android:button="@drawable/custom_checkbox_design"
+        android:textSize="10dp" />
+
+    <CheckBox
+        android:id="@+id/delayCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/feedbackCheckBox"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/feedbackCheckBox"
+        android:button="@drawable/custom_checkbox_design"
+        android:textSize="10dp" />
+
+    <CheckBox
+        android:id="@+id/sampleRateCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bitCheckBox"
+        android:layout_toRightOf="@+id/bitCheckBox"
+        android:button="@drawable/custom_checkbox_design"
+        android:textSize="10dp" />
+
+    <CheckBox
+        android:id="@+id/glitch2CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bitCheckBox"
+        android:layout_marginLeft="209dp"
+        android:layout_toRightOf="@+id/sampleRateCheckBox"
+        android:button="@drawable/custom_checkbox_design"
+        android:checked="false"
+        android:textSize="10dp" />
+
+</RelativeLayout>
